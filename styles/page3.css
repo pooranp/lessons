@@ -1,0 +1,68 @@
+table {
+    margin: 80px 0;
+    width: 100%;
+    border-bottom: 2px dotted rgba(109, 109, 109, 0.6);
+}
+
+caption {
+    font-size: 1.6em;
+    line-height: 2;
+    text-align: center;
+    margin: 0 20% 100px;
+}
+
+.col1:hover {
+    background-color: rgba(23, 23, 73,0.3);;
+    color: white;
+}
+
+/* Format column 1 borders */
+#r1c1, #r2c1, #r3c1, #r4c1, #r5c1, #r6c1, #r7c1, #r8c1 {
+    border-right: 5px solid rgba(109, 109, 109, 0.8);
+    border-top: 2px dotted rgba(109, 109, 109, 0.6);
+}
+
+/* Format column 2 borders */
+#r1c2, #r2c2, #r3c2, #r4c2, #r5c2, #r6c2, #r7c2, #r8c2 {
+    border-left: none;
+    border-top: 2px dotted rgba(109, 109, 109, 0.6);
+}
+
+td {
+    background-color: rgba(217, 234, 248, 1);
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black;
+    border-radius: 2em; */
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+img {
+    height:100%;
+    width: auto;
+}
+
+.hidden {
+    display: none;
+    border-left: none;
+    border-top: 2px dotted rgba(109, 109, 109, 0.6);
+}
+
+button {
+    position: absolute; 
+    right: 200px;
+    font-size: 1.1em;
+    background-color: rgba(255,255,255,0.5); 
+    border-radius: 10px; 
+    border-style: solid;
+    border-color: rgb(104, 104, 104);
+    padding: 15px 100px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: rgb(23, 23, 73);;
+    color: rgb(255, 255, 255);
+}
