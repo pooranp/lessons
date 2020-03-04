@@ -7,11 +7,11 @@ $(document).ready(function() {
 
         // define & hide column 2 cell
         var hideCell = cellPrefix + '2';
-        $("#" + hideCell).hide(); 
+        $("#" + hideCell).hide();
 
         // define & show column 3 cell
         var revealCell = cellPrefix + '3';
-        $("#" + revealCell).show(); 
+        $("#" + revealCell).show();
 
         hideCell = '';
         revealCell = '';
@@ -23,6 +23,6 @@ $(document).ready(function() {
 
     $('#resetBtn').click(function() {
         location.reload();
-      });
+    });
 
 });
